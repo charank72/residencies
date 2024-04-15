@@ -1,0 +1,70 @@
+.hero-wrapper {
+  color: #fff;
+  position: relative;
+  padding-bottom: 2rem;
+  background-color: var(--black);
+}
+.hero-left {
+  gap: 3rem;
+}
+
+.hero-container {
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left > .hero-title {
+  position: relative;
+  font-size: 4rem;
+  text-transform: capitalize;
+  z-index: 1;
+  
+}
+.hero-title > span {
+  font-weight: 600;
+  line-height: 4rem;
+}
+.hero-left > .hero-title > div {
+  width: 50px;
+  height: 50px;
+  background: var(--orange-gradient);
+  position: absolute;
+  top: 0;
+  border-radius: 999px;
+  z-index: -1;
+  right: 8rem;
+}
+.search-bar {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+.search-bar > input {
+  border: none;
+  outline: none;
+}
+.hero-stats{
+  width: 100%;
+  justify-content: space-between;
+}
+.stat>span:nth-child(1){
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2.5rem;
+}
+.stat>span:nth-child(1)>span:nth-child(2){
+  color: orange;
+}
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
