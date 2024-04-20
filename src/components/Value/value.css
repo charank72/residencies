@@ -48,4 +48,8 @@
   .accordion .primaryText{
     font-size: 0.9rem;
   }
+  .v-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
