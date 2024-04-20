@@ -79,13 +79,19 @@
     line-height: 1.3;
   }
   .hero-title>div{
-    display: none;
+    /* display: none; */
+    /* right: -10rem; */
+    left: 9rem;
+    /* top: 7.2rem; */
+  }
+  .hero-container .hero-right{
+    width: 100%;
   }
   .image-container{
     width: 18rem;
     height: 25rem;
+    margin: auto;
   }
-  .stat>span{
-    font-size: 1.2rem;
+  .hero-container .image-container{
   }
 }

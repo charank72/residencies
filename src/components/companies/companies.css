@@ -4,3 +4,10 @@
 .c-container>img{
   width: 10rem;
 }
+@media screen and (max-width:900px) {
+  .c-container{
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+  }
+}
