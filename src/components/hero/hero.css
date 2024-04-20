@@ -68,3 +68,24 @@
   width: 100%;
   height: 100%;
 }
+@media screen and (max-width:800px) {
+  .hero-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .hero-title >span {
+    font-size: 2.4rem;
+    line-height: 1.3;
+  }
+  .hero-title>div{
+    display: none;
+  }
+  .image-container{
+    width: 18rem;
+    height: 25rem;
+  }
+  .stat>span{
+    font-size: 1.2rem;
+  }
+}

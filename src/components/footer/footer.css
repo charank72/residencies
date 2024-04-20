@@ -1,6 +1,7 @@
 .f-container{
   display: flex;
   align-items: center;
+  gap: 1rem;
   justify-content: space-between;
 }
 ul{
@@ -11,4 +12,26 @@ ul{
 }
 ul li{
   list-style: none;
+}
+@media screen and (max-width:800px) {
+  .f-container{
+    flex-direction: column;
+  }
+  ul{
+    font-size: 0.8rem;
+    justify-content: flex-start;
+  }
+  .fhead{
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .info{
+    font-size: 1.5rem;
+  }
+  .fhead img{
+    width: 5rem;
+  }
+  .f-container{
+    align-items: flex-start;
+  }
 }

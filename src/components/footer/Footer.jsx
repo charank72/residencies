@@ -12,7 +12,7 @@ function Footer() {
           </span>
         </div>
         <div className="flexColStart">
-          <span className="primaryText">Information</span>
+          <span className="primaryText info">Information</span>
           <span className="secondaryText">145 New York, FL 5467, USA</span>
           <ul>
             <li>Property</li>

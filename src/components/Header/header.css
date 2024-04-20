@@ -15,3 +15,8 @@
 .h-menu>p{
 
 }
+@media screen and (max-width:800px){
+  .h-menu{
+    display: none;
+  }
+}
