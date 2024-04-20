@@ -52,7 +52,7 @@ function Contact() {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">9391581834</span>
                   </div>
                 </div>
                 <div className="button">ChatButton</div>
