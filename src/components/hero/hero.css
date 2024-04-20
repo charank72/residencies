@@ -5,6 +5,7 @@
   background-color: var(--black);
 }
 .hero-left {
+  width: 100%;
   gap: 3rem;
 }
 
@@ -70,6 +71,7 @@
 }
 @media screen and (max-width:800px) {
   .hero-left{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +94,5 @@
     height: 25rem;
     margin: auto;
   }
-  .hero-container .image-container{
-  }
+
 }
